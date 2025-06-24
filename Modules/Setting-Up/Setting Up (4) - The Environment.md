@@ -1,3 +1,4 @@
+Last Update: 2025-06-24 10:17
 # Terminal Emulators
 1. [Ghostty](https://ghostty.org/): Focuses on performance and speed while allowing customization of necessary parts.
 2. [Alacritty](https://alacritty.org/): Fast but less customization.
@@ -54,7 +55,8 @@ Remote desktop protocols (RDPs) allow users to control a computer or a server re
 - Rustdesk: an open source alternative to TeamViewer and AnyDesk. It has many features that make it both secure and efficient.
 
 # Containers
-![[Pasted image 20250402053954.png]]
+![Pasted image 20250402053954](https://github.com/user-attachments/assets/b8b143fc-ef7e-41ec-b3e6-326f22a216c1)
+
 Containers don't have their own OS which makes them lighter than VMs. this is also known as application virtualization. They are known for high scalability. Each container uses an image (copy) of the file system.
 
 | VM                                    | Container                                                                    |
