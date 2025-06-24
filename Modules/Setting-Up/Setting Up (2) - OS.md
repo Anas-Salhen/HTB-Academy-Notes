@@ -1,3 +1,4 @@
+Last Update: 2025-06-24 10:13
 # Linux
 Distributions for pentesting:
 - ParrotOS
