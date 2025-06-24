@@ -1,3 +1,4 @@
+Last Update: 2025-06-24 10:15
 # Virtual Private Server (VPS)
 It is an isolated environment created on a physical server using virtualization technology, it is considered IaaS. It allows us to configure **without restrictions** and uses the resources of a physical server to provide **server functionalities** which is why it's also called Virtual Dedicated Server **(VDS).**
 It is a compromise between inexpensive shared hosting and the usually costly rental of dedicated server technology.
