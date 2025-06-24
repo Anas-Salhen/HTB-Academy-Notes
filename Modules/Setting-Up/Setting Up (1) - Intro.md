@@ -26,6 +26,7 @@ For screenshots and GIFs use [Flameshot](https://github.com/flameshot-org/flames
 
 # Virtualization
 ![Pasted image 20250402052237](https://github.com/user-attachments/assets/a20397ac-b468-42b7-8b16-7ae74db9fd7f)
+
 Types: Hardware virtualization, Application virtualization, Storage virtualization, Data virtualization and Network virtualization
 
 ## Virtual Machines (VMs)
