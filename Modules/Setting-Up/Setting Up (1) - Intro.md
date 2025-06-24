@@ -25,7 +25,7 @@ Terminal emulators, such as [Tmux](https://github.com/tmux/tmux/wiki) and [Te
 For screenshots and GIFs use [Flameshot](https://github.com/flameshot-org/flameshot) and [Peek](https://github.com/phw/peek)
 
 # Virtualization
-![image](/res/image_20250402052237.png)
+![Pasted image 20250402052237](https://github.com/user-attachments/assets/a20397ac-b468-42b7-8b16-7ae74db9fd7f)
 Types: Hardware virtualization, Application virtualization, Storage virtualization, Data virtualization and Network virtualization
 
 ## Virtual Machines (VMs)
