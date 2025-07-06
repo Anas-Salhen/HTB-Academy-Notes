@@ -317,7 +317,8 @@ Every file and directory has an owner (a user, usually the creator) and is assoc
 - (w - octal 2): write
 - (x - octal 1): execute
 Execute on a directory allows you to access its contents and navigate with `cd`, on a file allows you to execute it. For example, having only execute permission on a directory means you can't list (read) contents with `ls` but if you know the name of the file inside and have the right permissions you can access it.
-![[Screenshot 2025-04-18 163422.png]]
+![Screenshot 2025-04-18 163422](https://github.com/user-attachments/assets/852b65c2-e704-4983-a439-8dd2c430ed13)
+
 1. File type (- = File, d = Directory, l = Link, ... )
 2. Permissions of the owner (read, write, execute)
 3. Permissions of the group (read, write)
