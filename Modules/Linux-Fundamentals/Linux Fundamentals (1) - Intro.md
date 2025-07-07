@@ -93,4 +93,4 @@ Terminal emulators and multiplexers provide us with more functionalities like sp
 ![Pasted image 20250407164813](https://github.com/user-attachments/assets/c45a7dfd-ebec-4e4c-a3e1-a8f5a71ab14e)
 
 
-The most commonly used shell in Linux is Bourne-Again Shell **(BASH)** which is part of the GNU project. Besides BASH there are other shells like  [Tcsh/Csh](https://en.wikipedia.org/wiki/Tcsh), [Ksh](https://en.wikipedia.org/wiki/KornShell), [Zsh](https://en.wikipedia.org/wiki/Z_shell) and [Fish](https://en.wikipedia.org/wiki/Friendly_interactive_shell)
+The most commonly used shell in Linux is Bourne-Again Shell **(BASH)** which is part of the GNU project. Besides BASH there are other shells like  [Tcsh/Csh](https://en.wikipedia.org/wiki/Tcsh), [Ksh](https://en.wikipedia.org/wiki/KornShell), [Zsh](https://en.wikipedia.org/wiki/Z_shell) and [Fish](https://en.wikipedia.org/wiki/Friendly_interactive_shell).
