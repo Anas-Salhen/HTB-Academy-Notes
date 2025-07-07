@@ -80,7 +80,7 @@ They are categorized into:
 
 Daemons are identified by 'd' at the end of their name like `sshd` and `systemd`.
 When dealing with a service/process we have the following goals:
-1. 1. Start/Restart a service/process
+1. Start/Restart a service/process
 2. Stop a service/process
 3. See what is/was happening with a service/process
 4. Enable/Disable a service/process on boot
