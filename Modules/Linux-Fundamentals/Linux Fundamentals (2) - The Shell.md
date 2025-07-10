@@ -1,3 +1,4 @@
+Last Update: 2025-07-10 2:00 PM
 # Prompt Description
 The prompt looks like this:
 ```shell-session
