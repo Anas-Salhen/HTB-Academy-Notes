@@ -1,3 +1,4 @@
+Last Update: 2025-07-17 4:44 AM
 # Windows Sessions
 ## Interactive
 An interactive or local logon session is when a user uses their username and password to access the system whether physically or remotely.
