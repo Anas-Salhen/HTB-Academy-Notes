@@ -61,7 +61,8 @@ It's a security feature that prevents malware from running or manipulating proce
 The diagram below ([source](https://docs.microsoft.com/en-us/windows/security/identity-protection/user-account-control/how-user-account-control-works)) shows what’s really happening behind the scenes when UAC asks for your permission.  
 While it may look technical, the key idea is that Windows checks whether the app needs admin rights, who is logged in, and how your UAC settings are configured.  
 You don’t need to understand every detail yet — just know that this process is what protects your system from running unauthorized programs silently.  
-![[Pasted image 20250715204214.png]]
+<img width="2576" height="3808" alt="Pasted image 20250715204214" src="https://github.com/user-attachments/assets/b0ce88d5-2525-45fa-bb87-af9b531a6331" />
+
 
 ## Registry
 The Registry is a critical database that stores low-level settings for the OS and some applications. It's divided into computer-specific data (i.e. hardware settings, system configs, etc.) and user-specific data (i.e. theme preferences). We can open the Registry Editor by typing regedit from the command-line or windows search.
@@ -81,7 +82,8 @@ It's organized in a tree structure that consists of main folders (root keys) in 
 |REG_QWORD|A 64-bit number.|
 |REG_QWORD_LITTLE_ENDIAN|A 64-bit number in little-endian format. Windows is designed to run on little-endian computer architectures. Therefore, this value is defined as REG_QWORD in the Windows header files.|
 |REG_SZ|A null-terminated string. This will be either a Unicode or an ANSI string, depending on whether you use the Unicode or ANSI functions.|
-![[Pasted image 20250716142713.png]]
+<img width="1027" height="299" alt="Pasted image 20250716142713" src="https://github.com/user-attachments/assets/86eefc9d-9e8f-4c63-9743-f3cdb73524ad" />
+
 Each folder under `Computer` is a key. All root keys start with `HKEY`. A key such as `HKEY-LOCAL-MACHINE` is abbreviated to `HKLM`. HKLM contains all settings relevant to the local system and it contains six subkeys: `SAM`, `SECURITY`, `SYSTEM`, `SOFTWARE`, `HARDWARE`, and `BCD`, loaded into memory at boot time (except `HARDWARE` which is dynamically loaded).
 
 System registry files are stored in several locations in the OS. For example, HKLM is stored in `C:\Windows\System32\Config\` and HKCU is stored in `C:\Users\<USERNAME>\Ntuser.dat`.
@@ -107,8 +109,9 @@ A whitelisting solution first introduced in Windows 7. It allows for creating ru
 ## Local Group Policy
 Group Policy is a centralized way for admins to set and configure settings. In a domain environment these policies are pushed from a Domain Controller to all machines within that domain.
 
-Local Group Policy allows doing that on an individual computer (not a whole domain). It's useful to tweak certain graphical and network settings that are otherwise not accessible via the Control Panel. We can open the Local Group Policy Editor by typing `gpedit.msc` in the start menu. It's split into Computer Configuration and User Configuration.
-![[Pasted image 20250716181031.png]]
+Local Group Policy allows doing that on an individual computer (not a whole domain). It's useful to tweak certain graphical and network settings that are otherwise not accessible via the Control Panel. We can open the Local Group Policy Editor by typing `gpedit.msc` in the start menu. It's split into Computer Configuration and User Configuration.  
+<img width="1629" height="536" alt="Pasted image 20250716181031" src="https://github.com/user-attachments/assets/de86b73c-6daf-4ba2-9905-69673a8db92a" />
+
 
 ## Windows Defender Antivirus
 Formerly known as Windows Defender, it's a built-in antivirus that comes for free with the Windows OS. It comes with several security features such as real-time protection, cloud-delivered protection and tamper protection which prevents security settings from being changed through the Registry, PowerShell cmdlets, or group policy.
