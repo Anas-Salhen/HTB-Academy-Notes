@@ -169,8 +169,9 @@ A full listing of `icacls` command-line arguments and detailed permission sett
 # NTFS vs Share Permissions
 Microsoft's Windows owns over 70% of the global market share on desktop OSs which is why many hackers choose to develop malware for it as it's considered a high value target resulting in windows being viewed as a less secure OS.
 
-One of the most famous vulnerabilities is EternalBlue which to this day haunts unpatched windows systems running SMBv1 and paves the way for ransomware attacks. The Server Message Block protocol (SMB) is used to connect shared resources like files and printers, see the image below:
-![[Pasted image 20250711123047.png]]
+One of the most famous vulnerabilities is EternalBlue which to this day haunts unpatched windows systems running SMBv1 and paves the way for ransomware attacks. The Server Message Block protocol (SMB) is used to connect shared resources like files and printers, see the image below:  
+<img width="1020" height="612" alt="Pasted image 20250711123047" src="https://github.com/user-attachments/assets/0c3189cb-7d19-48bf-b138-41f731376773" />
+
 
 NTFS permissions and share permissions aren't the same thing even though they apply to the same shared resource.
 Share permissions:
@@ -251,8 +252,9 @@ Once a connection is established we can create a mount point from our Linux syst
 
 The `net share` command on windows allows us to see all shared folders. Notice that some folders (including C:\) are automatically shared via SMB. Even though this type of shares is hidden from casual users it still raises a security concern if not handled properly.
 
-"Computer Management" is a useful windows tool to identify and monitor shared resources on the system. In case of a breach related to SMB this would be a great place to start and assess the situation.
-![[Pasted image 20250713021304.png]]
+"Computer Management" is a useful windows tool to identify and monitor shared resources on the system. In case of a breach related to SMB this would be a great place to start and assess the situation.  
+<img width="1024" height="713" alt="Pasted image 20250713021304" src="https://github.com/user-attachments/assets/c36c97ea-3a9e-414b-829c-247ede155940" />
+
 
 We can also use "Event Viewer" to view share access logs as well as other actions.  
-![[Pasted image 20250713044019.png]]
+<img width="1024" height="729" alt="Pasted image 20250713044019" src="https://github.com/user-attachments/assets/7bc6a5d8-a3f9-446c-8a59-722373bf56c4" />
