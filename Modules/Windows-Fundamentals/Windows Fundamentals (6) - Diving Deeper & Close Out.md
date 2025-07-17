@@ -1,3 +1,4 @@
+Last Update: 2025-07-17 4:44 AM
 # Desktop Experience vs. Server Core
 Windows Server Core is a minimalistic server environment containing only key server functionalities. As a result it has lower management requirements, a smaller attack surface, uses less memory than Desktop Experience which has a GUI (unlike Server Core). In Server Core all configuration is performed via the command-line, PowerShell, remote management with MMC or Remote Server Administration Tools (RSAT).
 
