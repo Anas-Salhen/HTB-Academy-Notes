@@ -1,3 +1,4 @@
+Last Update: 2025-07-17 4:43 AM
 # Windows Services & Processes
 ## Services
 Services allow for the creation and management of long-running processes. Applications can also be created to install as a service like a network monitoring application installed on a server. Windows services are managed via the Service Control Manager (SCM) system, accessible via the `services.msc` MMC add-in. It provides a GUI for interacting with and managing services and displaying info about them. It's also possible to manage them via the command line using `sc.exe` or using PowerShell cmdlets like `Get-Service`.
