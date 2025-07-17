@@ -1,3 +1,4 @@
+Last Update: 2025-07-17 4:44 AM
 # Microsoft Management Console (MMC)
 Microsoft Management Console (MMC) is a built-in Windows application that lets system administrators and power users manage hardware, software, users, and network settings through snap-ins (mini admin tools). We can also use it to create custom windows tools and distribute them to users.
 
