@@ -1,3 +1,4 @@
+Last Update: 2025-07-10 2:01 PM
 # Linux Security
 Linux systems are less prone to viruses that affect Windows operating systems and do not present as large an attack surface as Active Directory domain-joined hosts.
 

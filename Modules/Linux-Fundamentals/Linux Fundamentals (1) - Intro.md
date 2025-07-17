@@ -1,3 +1,4 @@
+Last Update: 2025-07-10 2:00 PM
 # History
 First Unix operating system was released by Ken Thompson and Dennis Ritchie (who both worked for AT&T at the time) in 1970. The Berkeley Software Distribution (BSD) was released in 1977, but since it contained the Unix code owned by AT&T, its development stopped.
 Richard Stallman started the GNU project in 1983. His goal was to create a free Unix-like operating system, and part of his work resulted in the GNU General Public License (GPL) being created.
