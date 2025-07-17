@@ -1,3 +1,4 @@
+Last Update: 2025-07-17 4:43 AM
 # The Windows Operating System
 Introduced by Microsoft in 1985. Back then windows was just a GUI that ran on top of MS-DOS. Windows 95 was the first full integration of Windows and DOS and offered built-in Internet support for the first time. Over the years many versions of windows were released like Windows XP, Vista, 8, 10 and 11. Windows also offered various editions to address the needs of consumers and enterprises.
 
