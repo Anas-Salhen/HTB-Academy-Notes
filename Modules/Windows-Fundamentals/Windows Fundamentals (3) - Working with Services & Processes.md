@@ -94,8 +94,9 @@ On server OSs it's common for critical network services like DHCP and Active Dir
 We should be aware of service permissions and the permissions of the directories they execute from. For example, if any user can edit those directories normal executable files could be replaced with malicious files.
 
 ## Examining Services using services.msc
-`services.msc` is a very useful tool for viewing and managing services.
-![[Pasted image 20250714134903.png]]
+`services.msc` is a very useful tool for viewing and managing services.  
+<img width="1020" height="767" alt="Pasted image 20250714134903" src="https://github.com/user-attachments/assets/d537c5f3-13ea-40f7-84f3-b046074fa972" />
+
 Most services run with LocalSystem privileges by default which is the highest level of access allowed on the OS. Not all applications need those kind of permissions so we need to identify the ones that can run with the least privileges possible.  
 Notable built-in service accounts in Windows:
 - LocalService
