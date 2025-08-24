@@ -1,3 +1,4 @@
+Last Update: 2025-08-24 5:52 AM
 # Functions
 Functions must always be defined logically `before` the first call since a script is also processed from top to bottom. They can be defined in 2 ways:
 ```bash
