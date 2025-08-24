@@ -1,3 +1,4 @@
+Last Update: 2025-08-24 5:51 AM
 # Introduction
 [Bash](https://en.wikipedia.org/wiki/Bash_\(Unix_shell\)) or Bourne Again Shell is the scripting language used in Unix-based systems. We can also use it in windows via [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about). The main difference between scripting and programming languages is that we don't need to compile the code to execute the scripting language, unlike programming languages. To execute a script, we have to specify the interpreter and the script it will execute.  Examples of running Bash scripts:
 ```shell-session
